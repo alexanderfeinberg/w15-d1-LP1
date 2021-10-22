@@ -335,7 +335,7 @@ passed through `TransitionItem` to `CSSTransition`. To make this happen,
 deconstruct the props you are passing into `TransitionItem`, storing any
 additional props in `props`. (Use the rest operator.) Then, in addition to the
 specific props you set when instantiating `CSSTransition`, also pass the rest of
-the `props`. (Use the splat operator.) 
+the `props`. (Use the spread operator.) 
 
 Test your solution!
 

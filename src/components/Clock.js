@@ -19,7 +19,6 @@ class Clock extends React.Component {
     super(props);
     this.state = {
       time: new Date(),
-      showClock: true
     };
   }
   
